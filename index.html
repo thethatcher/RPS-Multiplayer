@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<form>
+			<div class="form-group">
+				<label for="nameInput">Player Name</label>
+				<input type="text" name="Name" class="form-control" placeholder="Enter your name here" id="playerName">
+			</div>
+		</form>
+		<div class="row">
+			<div class="col-sm-3 text-center player">
+				<p>Player 1</p>
+			</div>
+			<div class="col-sm-6 text-center results">
+				<p>results area</p>
+			</div>
+
+			<div class="col-sm-3 text-center player">
+				<p>Player 2</p>
+			</div>	
+		</div>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-8">
+			<div class="row">
+				<div class="col-sm-12" id="chatBox">
+					
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-sm-12">
+					<form>
+						<input type="text" name="chatText" id="playerMessage" placeholder="Enter your message">
+						<input type="submit" name="submitBtn">
+					</form>	
+				</div>
+			</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.js"
+	  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
